@@ -1,0 +1,12 @@
+/etc/sudoers.d
+%sudo ALL=NOPASSWD: ALL
+%useradd ALL=NOPASSWD: ALL
+
+netstat -apn
+lsof | grep 435
+less /etc/fstab
+/etc/group
+
+rws-rx-rx root bin /usr/sbin/useradd
+sudo-group-users
+
